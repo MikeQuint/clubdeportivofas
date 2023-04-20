@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Acerca del equipo CD FAS de El Salvador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      
+      /* Estilos para la sección de encabezado */
+      header {
+        background-color: #005596;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      /* Estilos para la sección de contenido */
+      .contenido {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+      }
+      
+      .contenido h1 {
+        text-align: center;
+      }
+      
+      .contenido p {
+        text-align: justify;
+      }
+      
+      .contenido h2 {
+        text-align: center;
+      }
+      
+      .contenido ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .contenido li {
+        margin-bottom: 10px;
+      }
+      
+      /* Estilos para dispositivos pequeños */
+      @media (max-width: 768px) {
+        .contenido {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CD FAS de El Salvador</h1>
+    </header>
+    <div class="contenido">
+      <h1>CD FAS de El Salvador</h1>
+      <p>El CD FAS es un equipo de fútbol de la Primera División de El Salvador con sede en la ciudad de Santa Ana.</p>
+      <h2>Historia</h2>
+      <p>El CD FAS fue fundado en 1947 y ha ganado 17 títulos de liga en su historia, convirtiéndose en uno de los equipos más exitosos de El Salvador. Además, ha participado en varias competiciones internacionales, incluyendo la Liga de Campeones de la CONCACAF.</p>
+      <h2>Jugadores destacados</h2>
+      <ul>
+        <li>Jorge González: conocido como "Mágico", es considerado uno de los mejores jugadores en la historia del fútbol salvadoreño y jugó para el CD FAS en la década de 1980.</li>
+        <li>Luis Ramírez Zapata: apodado "El Matador", es el máximo goleador en la historia del CD FAS y también jugó para la selección de El Salvador.</li>
+        <li>Agustín Ruiz: exjugador del CD FAS y de la selección de El Salvador, es considerado uno de los mejores centrocampistas del fútbol salvadoreño.</li>
+      </ul>
+      <h2>Decadas</h2>
+      <ul>
+        <div class="contenido">
+            <ul>
+              <li><button onclick="mostrarDecada('decada1940')">Década de 1940</button></li>
+              <li><button onclick="mostrarDecada('decada1950')">Década de 1950</button></li>
+              <li><button onclick="mostrarDecada('decada1960')">Década de 1960</button></li>
+              <li><button onclick="mostrarDecada('decada1970')">Década de 1970</button></li>
+              <li><button onclick="mostrarDecada('decada1980')">Década de 1980</button></li>
+              <li><button onclick="mostrarDecada('decada1990')">Década de 1990</button></li>
+              <li><button onclick="mostrarDecada('decada2000')">Década de 2000</button></li>
+              <li><button onclick="mostrarDecada('decada2010')">Década de 2010</button></li>
+              <li><button onclick="mostrarDecada('decada2020')">Década de 2020</button></li>
