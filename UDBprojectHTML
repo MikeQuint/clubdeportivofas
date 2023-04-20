@@ -4,6 +4,11 @@
     <title>Acerca del equipo CD FAS de El Salvador</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+       
+  body {
+    background-image: url('https://www.elgrafico.com/__export/1645203557842/sites/prensagrafica/img/2022/02/18/disexo_sin_txtulo_x25x_crop1645203556615.png_525981578.png');
+			background-repeat: no-repeat;
+			background-size: cover;  }
       * {
         box-sizing: border-box;
       }
@@ -61,18 +66,18 @@
   </head>
   <body>
     <header>
-      <h1>CD FAS de El Salvador</h1>
+      <h1>CD FAS</h1>
     </header>
     <div class="contenido">
-      <h1>CD FAS de El Salvador</h1>
+      <h1>CD FAS</h1>
       <p>El CD FAS es un equipo de fútbol de la Primera División de El Salvador con sede en la ciudad de Santa Ana.</p>
       <h2>Historia</h2>
-      <p>El CD FAS fue fundado en 1947 y ha ganado 17 títulos de liga en su historia, convirtiéndose en uno de los equipos más exitosos de El Salvador. Además, ha participado en varias competiciones internacionales, incluyendo la Liga de Campeones de la CONCACAF.</p>
+      <p>El CD FAS fue fundado en 1947 y ha ganado 19 títulos de liga en su historia, convirtiéndose en uno de los equipos más exitosos de El Salvador. Además, ha participado en varias competiciones internacionales, incluyendo la Liga de Campeones de la CONCACAF.</p>
       <h2>Jugadores destacados</h2>
       <ul>
         <li>Jorge González: conocido como "Mágico", es considerado uno de los mejores jugadores en la historia del fútbol salvadoreño y jugó para el CD FAS en la década de 1980.</li>
-        <li>Luis Ramírez Zapata: apodado "El Matador", es el máximo goleador en la historia del CD FAS y también jugó para la selección de El Salvador.</li>
-        <li>Agustín Ruiz: exjugador del CD FAS y de la selección de El Salvador, es considerado uno de los mejores centrocampistas del fútbol salvadoreño.</li>
+        <li>Alejandro de la Cruz Bentos: Delantero de nacionalidad Argentino nacido el 03/05/1978 en Posadas (MIS). Jugó 236 partidos y convirtió 81 </li>
+        <li>Óscar Quiteño: EL estadio fue nombrado en honor al portero quien falleció el 13 de diciembre de 1964, cuando C.D. FAS disputó un encuentro contra el Orión de Costa Rica, en este estadio después de haber recibido un fuerte impacto en el pecho en un tiro libre y cual marcaría un dolor inmenso en la afición tigrilla.</li>
       </ul>
       <h2>Decadas</h2>
       <ul>
@@ -87,3 +92,7 @@
               <li><button onclick="mostrarDecada('decada2000')">Década de 2000</button></li>
               <li><button onclick="mostrarDecada('decada2010')">Década de 2010</button></li>
               <li><button onclick="mostrarDecada('decada2020')">Década de 2020</button></li>
+      </ul>
+    </div>
+  </body>
+</html>
